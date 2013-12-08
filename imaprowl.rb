@@ -28,7 +28,7 @@ require 'imapidle' unless Net::IMAP.respond_to?("idle")
 
 class IMAProwl
 
-  PROWL_API_ADD = "https://prowl.weks.net/publicapi/add"
+  PROWL_API_ADD = "https://nma.usk.bz/publicapi/notify"
 
   @@conf = Hash.new
   @@logger = nil
